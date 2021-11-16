@@ -1,0 +1,115 @@
+.pricing__section{
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0 160px;
+}
+
+.pricing__container-card{
+    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    border-radius: 4px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+    height: 500px;
+    text-decoration: none;
+    width: 280px;
+}
+
+.pricing__container-card:nth-child(2){
+    background: #242424;
+    margin: 0 24px;
+    transform: scale(1.05);
+}
+
+.pricing__container-card:hover{
+    color: #1c2237;
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;    
+}
+
+.pricing__container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__wrapper{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.pricing__heading{
+    color: #1c2237;
+    margin-bottom: 24px;
+}
+
+.pricing__container-cardInfo{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 24px;
+}
+
+.pricing__container-cardInfo h3{
+   font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.pricing__container-cardInfo h4{
+    font-size: 40px;
+}
+
+.pricing__container-cardInfo p{
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.pricing__container-features{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 16px 0 32px;
+}
+
+.pricing__container-features li{
+    margin-bottom: 10px;
+}
+
+.icon{
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 960px) {
+    .pricing__container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pricing__container-card{
+        width: 90%;
+    }
+
+    .pricing__wrapper{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .pricing__container-card:nth-child(2){
+        background: #242424;
+        margin: 24px;
+        transform: scale(1);
+    }
+
+    .pricing__container-card:hover{
+        transform: none;
+    }
+}
