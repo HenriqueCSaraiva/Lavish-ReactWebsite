@@ -44,8 +44,7 @@
     align-items: center;
     display: flex;
     list-style: none;
-    justify-content: center;
-    justify-content: end;
+    justify-content: space-evenly;
     text-align: center;
 }
 
